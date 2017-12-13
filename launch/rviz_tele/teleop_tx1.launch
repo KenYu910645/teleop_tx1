@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<launch>
+    <!-- IMU visualiaztion-->
+    <!-- node name = "display_3D_visualization_node" pkg = "teleop_tx1" type = "display_3D_visualization.py" output = "screen"/-->
+    <!--RVIZ -->
+    <node name = "rviz" pkg = "rviz" type = "rviz" args = "-d $(find teleop_tx1)/rviz_cfg/drogo_laser_odom.rviz"/>
+    <!--control panel -->
+    <!-- include file="$(find teleop_tx1)/launch/include/control.launch" /-->
+</launch>

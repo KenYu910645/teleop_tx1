@@ -1,0 +1,10 @@
+<launch>
+    <node name = "base_publisher" pkg = "teleop_tx1" type = "base_publisher">
+    </node>
+    <node name = "base_listener" pkg = "teleop_tx1" type = "base_listener" output = "screen">
+    </node>
+    <node name = "base_listenAndTalk" pkg = "teleop_tx1" type = "base_listenAndTalk" output = "screen">
+    </node>
+
+
+</launch>

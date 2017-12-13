@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<launch>
+    <!--RVIZ -->
+    <node name = "rviz" pkg = "rviz" type = "rviz" args = "-d $(find teleop_tx1)/rviz_cfg/drogo_gmapping.rviz"/>
+</launch>
